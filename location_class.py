@@ -1,15 +1,10 @@
-##incident class for incident map
-##stakeholder demo1 edition
+##location class for incident map
+##stakeholder1 demo edition
 
-import location_class.py
-import date
+class Location:
+     def __init__(self, _description, co):
+          self.coords = co
+          self.description = _description
 
-
-class Incident:
-    def __init__(self, _event_num, _event_type, _location, _description):
-        self.event_num = _event_num
-        self.event_type = _event_type
-        self.location = _location
-        self.event_description = _description
-        
-        
+               
+          
